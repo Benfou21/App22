@@ -46,18 +46,9 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
               Flexible(
                 child: Hero(
                   tag: "logo",
-                  child: WidgetMask(
-                    blendMode: BlendMode.srcATop,
-                    childSaveLayer: true,
-                    mask: Image.asset(
-                      "images/image2.jpg",
-                      fit: BoxFit.cover,
-                      alignment: Alignment.centerLeft,
-                    ),
-                    child: Image.asset(
-                      "images/ovale2.png",
-                      scale: 1.7,
-                    ),
+                  child: Image.asset(
+                    "images/icon_ford.png",
+                    scale: 1.7,
                   ),
                 ),
               ),

@@ -30,28 +30,19 @@ class _Welcome_screenState extends State<Welcome_screen> {
             Center(
               child: Hero(
                 tag: "logo",
-                child: WidgetMask(
-                  blendMode: BlendMode.srcATop,
-                  childSaveLayer: true,
-                  mask: Image.asset(
-                    "images/image2.jpg",
-                    fit: BoxFit.cover,
-                    alignment: Alignment.centerLeft,
-                  ),
-                  child: Image.asset(
-                    "images/ovale2.png",
-                    scale: 1.7,
-                  ),
+                child: Image.asset(
+                  "images/icon_ford.png",
+                  scale: 1.7,
                 ),
               ),
             ),
-            addVerticalSpace(100),
+            addVerticalSpace(90),
             Text(
-              "Relive your trips and discover the others!",
+              "Keep a track of your health",
               textAlign: TextAlign.center,
               style: GoogleFonts.roboto(textStyle: kHeadline1),
             ),
-            addVerticalSpace(120),
+            addVerticalSpace(100),
             Capsul(
               text: "Get Started",
               onpressed: () {
